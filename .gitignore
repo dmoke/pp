@@ -1,0 +1,9 @@
+node_modules/
+test-results/
+playwright/.auth/
+playwright-report/
+*.log
+.env
+.DS_Store
+CLAUDE.local.md
+node_modules/
