@@ -1,3 +1,16 @@
+raw_sequence = "pong-ping-pong-ping-pong-dong-tang-bing-pong-pong-ping-pong-tink-donk-donk-donk"
+token_list = raw_sequence.split("-")
+
+translation_source = "piong"
+
+text_sample = "abc darad aood"
+
+number_list = [1, 2, 3, 4, 5]
+
+word_list = "pong-ping-pong".split("-")
+
+pair_list = [(1, "a"), (2, "b"), (3, "c")]
+
 # input = "pong-ping-pong-ping-pong-dong-tang-bing-pong-pong-ping-pong-tink-donk-donk-donk"
 
 # input = input.split("-")
@@ -51,3 +64,72 @@
 # print(foo2(a))
 # print(result)
 # print(foo)
+
+# ==================================== enumerate ====================================
+
+# enumerate(iterable, start=0)
+# → returns (index, value) pairs while iterating
+
+# words = "pong-ping-pong".split("-")
+
+# for i, word in enumerate(words):
+#     print(i, word)
+
+# # start index at custom number
+# for i, word in enumerate(words, start=1):
+#     print(i, word)
+
+
+# ==================================== enumerate + zip ====================================
+
+# enumerate works nicely with zip when you need index + paired values
+
+# for i, (prev, next) in enumerate(zip(words, words[1:])):
+#     print(i, prev, "->", next)
+
+
+# ==================================== enumerate vs range(len()) ====================================
+
+# # Instead of:
+# for i in range(len(words)):
+#     print(i, words[i])
+
+# # Prefer:
+# for i, word in enumerate(words):
+#     print(i, word)
+
+
+# ==================================== dictionary index mapping ====================================
+
+# indexed = {i: word for i, word in enumerate(words)}
+# print(indexed)
+
+
+# ==================================== unpacking example ====================================
+
+# pairs = [(1, "a"), (2, "b"), (3, "c")]
+
+# for i, (num, char) in enumerate(pairs):
+#     print(i, num, char)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
