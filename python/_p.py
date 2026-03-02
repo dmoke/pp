@@ -113,20 +113,33 @@ pair_list = [(1, "a"), (2, "b"), (3, "c")]
 #     print(i, num, char)
 
 
+#==================================== ~, bytes ====================================
+
+#~x  ==  -x-1
+palindrome=lambda n,s:(s*n)[:n//2]+(s*n)[~-n//2::-1]
+
+print(number_list[~2])
+print(~3)
+
+print(bin(251))
+print(bin(-5))
+
+print(format(-5 & 0xff, '08b'))
 
 
 
+import sys
+x = 10
+print(sys.getsizeof(x))  # -> 28 bytes
 
 
-
-
-
-
-
-
-
-
-
+print(sys.getsizeof(bin(-5)))
+print(sys.getsizeof(bin(5)))
+print(sys.getsizeof([]))
+print(type(bin(4)))
+print(sys.getsizeof(1))
+print(sys.getsizeof(sys.maxsize))
+print(sys.maxsize) # 9_223_372_036_854_775_807
 
 
 
