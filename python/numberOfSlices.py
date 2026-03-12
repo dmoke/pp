@@ -1,3 +1,6 @@
+#For example, the string "01234" has the following 2-digit slices:
+# [0, 1], [1, 2], [2, 3], [3, 4]
+
 def series_slices(digits, n):
    if n > len(digits):
       raise ValueError("n must be less than or equal to the length of digits") 
