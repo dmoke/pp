@@ -1,3 +1,8 @@
+// Kata: Rectangle into Squares
+// Given dimensions of a rectangle (length and width), decompose it into the smallest possible squares
+// by recursively cutting off the largest square that fits until the rectangle is completely divided.
+// Returns the list of square sizes, or null if the rectangle is already a square.
+
 function sqInRect(lng, width) {
   if (lng === width) return null;
 
@@ -14,6 +19,4 @@ function sqInRect(lng, width) {
   return squares;
 }
 
-
-
-console.log(sqInRect(20,14));
+console.log(sqInRect(20, 14));

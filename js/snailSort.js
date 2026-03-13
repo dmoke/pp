@@ -1,3 +1,7 @@
+// Kata: Snail Sort
+// Given a 2D square array, traverse it in a spiral pattern (clockwise from outside to inside)
+// and return a 1D array containing all elements in spiral order.
+
 function snail(arr) {
   if (!arr || arr.length === 0 || arr[0].length === 0) return [];
 

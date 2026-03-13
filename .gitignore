@@ -8,3 +8,4 @@ playwright-report/
 CLAUDE.local.md
 node_modules/
 .venv/
+.vscode/

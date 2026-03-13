@@ -1,4 +1,6 @@
-/*all the ways to populate array*/
+// Kata: Populate Array
+// Demonstration of all the different ways to create and populate arrays in JavaScript,
+// including array literals, Array constructor, Array.from, Array.of, spread operator, and more.
 
 let array1 = [1, 2, 3];
 console.log("array literal:", array1);
