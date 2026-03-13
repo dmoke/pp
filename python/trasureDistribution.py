@@ -1,3 +1,8 @@
+# Kata: Treasure Distribution Simulation
+# Simulates a treasure search scenario where multiple people search independently with a fixed
+# probability of finding treasure each day. Visualizes the distribution of treasure finds and
+# calculates average days to find treasure.
+
 import random
 import matplotlib.pyplot as plt
 

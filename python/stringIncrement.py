@@ -1,3 +1,7 @@
+# Kata: Increment String Numbers
+# Finds the numeric suffix in a string and increments it while preserving leading zeros.
+# If no number exists, appends "1" to the string.
+
 import re
 
 

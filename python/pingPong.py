@@ -1,3 +1,7 @@
+# Kata: Ping Pong Game Winner
+# Determines the winner of a ping pong game by counting valid ping/pong shots and filtering out bad shots.
+# Returns who won based on shot count and last bad shot when scores are tied.
+
 def ping_pong(sounds):
     sounds = sounds.split("-")
 

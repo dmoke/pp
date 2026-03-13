@@ -1,3 +1,6 @@
+# Reference Code
+# Simple demonstration of Python generators and the yield keyword.
+
 def myGen():
     yield 1
     yield 2

@@ -1,3 +1,7 @@
+# Kata: Rotate Matrix
+# Rotates a matrix clockwise or counter-clockwise by 90 degrees.
+# Handles both square and rectangular matrices.
+
 import math
 
 

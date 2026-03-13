@@ -1,3 +1,7 @@
+# Kata: Ann and John Sequence (The Josephus Problem variant)
+# Implements a complex sequence where Ann and John alternately determine positions based on
+# each other's sequences. Functions return the sequences and their sums up to n elements.
+
 def john(n):
     if n == 0:
         return []

@@ -1,3 +1,7 @@
+# Sample/Reference Code
+# Demonstrations of Python concepts including walrus operator (:=), lambda functions,
+# enumerate, zip, unpacking, and bitwise operations.
+
 raw_sequence = "pong-ping-pong-ping-pong-dong-tang-bing-pong-pong-ping-pong-tink-donk-donk-donk"
 token_list = raw_sequence.split("-")
 

@@ -1,3 +1,7 @@
+# Kata: Inside Out Words
+# For each word in a string, reverse the two halves: left half reversed + middle char (if odd) + right half reversed.
+# Example: "ubud" (u-b | u-d) becomes "bu-du".
+
 def inside_out(strng: str) -> str:
     words = strng.split()
     result = []

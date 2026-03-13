@@ -1,3 +1,8 @@
+# Kata: Bell Curve Treasure Distribution
+# Simulates treasure finding with batch processing and generates a distribution histogram
+# showing batch averages. Visualizes how batch averages cluster around the overall average
+# (bell curve/normal distribution).
+
 import random
 import matplotlib.pyplot as plt
 import numpy as np

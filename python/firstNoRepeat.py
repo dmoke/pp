@@ -1,3 +1,7 @@
+# Kata: First Non-Repeating Character
+# Find the first character in a string that appears only once (case-insensitive).
+# Returns the character if found, otherwise returns an empty string.
+
 from collections import Counter
 
 
