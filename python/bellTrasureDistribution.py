@@ -48,7 +48,7 @@ counts, bins, _ = plt.hist(
 )
 
 max_bin_index = np.argmax(counts)
-max_bin_height = counts[max_bin_index]
+max_bin_height = float(counts[max_bin_index])
 max_bin_value = (bins[max_bin_index] + bins[max_bin_index + 1]) / 2
 
 plt.axhline(
