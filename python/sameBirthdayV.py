@@ -6,7 +6,7 @@ from sameBirthdayProbability import calculate_probability_birthday
 
 values = [calculate_probability_birthday(n) for n in range(1, 60)]
 
-plt.plot(values, label="Probability", alpha=0.7)
+plt.plot(values, label="Probability", alpha=0.7 )
 
 plt.axhline(y=0.5, color="r", linestyle="--", label="50%")
 
