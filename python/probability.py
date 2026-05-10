@@ -2,7 +2,8 @@ import math
 
 
 # P(x) = nCx p^x q^n-x
-# nCx = n!/(n-x)!x!
+# nCx = n!/(n-x)!x!   C(n, x) = number of ways to choose x items from n, ignoring order - combinations
+# nPx = n!/(n-x)!   P(n, x) = number of ordered ways to choose x items from n - permutations
 def binomial(n, x, p, q):
     """
     Use when calculating probability of exactly x successes in n trials.
